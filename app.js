@@ -25,5 +25,7 @@ app.use((req, res, next) => {
   );
   next();
 });
+
 app.use("/api/stuff", router)
+
 module.exports = app;
